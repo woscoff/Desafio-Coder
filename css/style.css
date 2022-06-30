@@ -49,6 +49,22 @@ main section img{
 	height: 50rem;
 }
 
+.logo{
+	width: 20rem;
+	margin-bottom: 3rem;
+	transition: width 1s;
+}
+.logo:hover{
+	width: 22rem;
+}
+
+.img-contac{
+	transition: width 1s;
+}
+.img-contac:hover{
+	width: 29rem;
+}
+
 nav{
 	background-color: rgba(252,84,100, 0.5);
 	position: sticky;
@@ -59,11 +75,6 @@ nav{
 	justify-content: center;
 	align-items: center;
 }
-
-	nav img{
-		width: 200px;
-		margin-bottom: 30px;
-	}
 
 	nav ul{
 	display: flex;
@@ -112,9 +123,11 @@ nav{
 		height: auto;
 		margin: auto;
 		padding: 2rem;
+		transition: width 1s;
 	}
-
-
+	#contenedor img:hover {
+		width: 40rem;
+	  }
 
 .imagenes-cat{
 	display: flex;
@@ -166,6 +179,11 @@ nav{
 .pie__icon{
 	width: 5rem;
 	padding: 1rem;
+	transition: width 1s;
+}
+
+.pie__icon:hover{
+	width: 6rem;
 }
 
 .pie{
@@ -187,13 +205,13 @@ nav{
 }
 
 .icon-contact-g{
-	width: 30rem;
+	width: 28rem;
 	height: auto;
 	padding: 3rem 10rem;
 }
 
 .icon-contact-f{
-	width: 28rem;
+	width: 26rem;
 	height: auto;
 	padding: 3rem 10rem;
 }
@@ -284,6 +302,3 @@ nav{
 		"info info" 
 		"pie pie";
 	}
-
-
-
