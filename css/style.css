@@ -61,8 +61,8 @@ nav{
 }
 
 	nav img{
-		width: 160px;
-		margin-bottom: 30px;
+		width: 16rem;
+		margin-bottom: 3rem;
 	}
 
 	nav ul{
@@ -111,7 +111,7 @@ nav{
   	flex-direction: column;
 }
 	#contenedor img{
-		width: 28rem;
+		width: 35rem;
 		height: auto;
 		margin: auto;
 		padding: 3rem;
@@ -121,7 +121,7 @@ nav{
 
 .imagenes-cat{
 	display: flex;
-  	flex-direction: column;
+  	flex-direction: row;
 	height: auto;
 	width: 50rem;
 	margin: auto;
@@ -146,11 +146,6 @@ nav{
 
 .titulo__xxl{
 	font-size: 3.5rem;
-}
-
-.espacio{
-	padding: 2rem;
-	margin: 2rem auto;
 }
 
 .hora{
@@ -181,7 +176,7 @@ nav{
 	font-size: 3rem;
 }
 .gmail{
-	width: 110rem;
+	width: 90%;
 	height: 40rem;
 	margin: 2rem auto;
 	padding: auto;
