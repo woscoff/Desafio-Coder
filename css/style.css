@@ -135,14 +135,31 @@ nav{
 		width: 40rem;
 	  }
 
-.imagenes-cat{
-	display: flex;
-  	flex-direction: row;
-	height: auto;
-	width: 50rem;
+.precio {
+	width: 100%;
+	height:auto;
 	margin: auto;
-	padding: 2rem;
-}
+	font-family: sans-serif;
+	display: flex;
+  	flex-direction: column;
+	align-items: center;
+	height:50px;
+  }
+
+  .box-precio{
+	  width: 50%;
+	  height: auto;
+	  margin: auto;
+  }
+
+   .precio1{
+	  color: red;
+	  font-size: 2em;
+  }
+
+  .precio .precio2{
+	  font-size: 3em;
+  }
 
 .text-bold{
 	font-weight: 600;
