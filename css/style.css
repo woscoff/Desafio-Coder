@@ -164,6 +164,11 @@ nav{
 	font-size: 3.5rem;
 }
 
+.btn-cat{
+	color: #ecdcd4;
+	background-color: #fc5464;
+}
+
 .hora{
 	width: 50%;
 	height: auto;
