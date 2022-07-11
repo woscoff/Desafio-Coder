@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500&display=swap');
 
-*{
-	font-family: 'Roboto', sans-serif;
-	padding: 0;
-	margin: 0;
-}
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0; }
 
+html {
+  font-size: 62.5%; }
 
-html{
-	font-size: 62.5%;
-}
-
-body{
-	background-image: url(../img/fondo.jpg);
-	background-attachment: fixed;
-	overflow-x: hidden;
-}
+body {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  overflow-x: hidden; }
 
 h1,h2, h3{
 	color: #82020e;
@@ -65,22 +61,8 @@ main section img{
 	width: 29rem;
 }
 
-nav{
-	background-color: rgba(252,84,100, 0.5);
-	position: sticky;
-	top: 0;
-	padding: 10px 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-
-
-
-	nav ul{
-	display: flex;
+nav ul{
+display: flex;
 	}
 
 		nav ul li{

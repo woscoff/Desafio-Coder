@@ -1,0 +1,29 @@
+//imports
+@import "_vars";
+@import "_fonts";
+@import "_nav";
+@import "_principal";
+@import "_commons";
+@import "_footer";
+
+*{
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+
+h1,h2, h3{
+	color: #82020e;
+	font-family: 'Quintessential', cursive;
+}

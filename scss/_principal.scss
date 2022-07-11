@@ -1,0 +1,107 @@
+
+#fotos{
+	.bg{
+		background-color: $bg-color;
+	}
+	#contenedor{
+		width: 80%;
+		height: 60rem;
+		border: dotted 2px #960210;
+		padding: auto;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+	  	flex-direction: column;
+	 		img{
+	  		width: 35rem;
+			height: auto;
+			margin: auto;
+			padding: 2rem;
+			transition: width 1s;
+			&:hover{
+				width: 40rem;
+			}
+	  	}
+	}
+}
+
+#info{
+	.text-center{
+		text-align: center;
+	}
+	.p__articulo{
+		width: 90%;
+		height: auto;
+		margin: 50px auto;
+		padding: 50px 30px;
+		border: dotted 2px #960210;
+		overflow: auto;
+	}
+	.bg{
+		background-color: $bg-color;
+	}
+	p{
+		color: #960210;
+		line-height: 2rem;
+		font-size: 1.9rem;
+	}
+	.text-bold{
+		font-weight: $regular;
+	}
+	.titulo__xxl{
+		font-size: $textXl;
+	}
+}
+
+
+.contenedor-r{
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"nav" 
+	"fotos" 
+	"info" 
+	"pie";
+}
+
+#mainNav{
+	grid-area: nav;
+}
+
+#fotos{
+	grid-area: fotos;
+}
+
+#info{
+	grid-area: info;
+}
+
+#pie{
+	grid-area: pie;
+}
+
+@media (min-width: 1024px){
+	.contenedor-r{
+		grid-template-columns: 50vh 50vh;
+		grid-template-rows: auto;
+		grid-template-areas: 
+		"nav nav"
+		"fotos fotos" 
+		"info info" 
+		"pie pie";
+	}
+
+	#contenedor{
+		display: flex;
+  		flex-direction: row;
+  		width: 70%;
+		height: 30rem;
+	}
+	#contenedor img{
+		width: 35rem;
+		height: auto;
+		margin: auto;
+		padding: 2rem;
+	}
+}

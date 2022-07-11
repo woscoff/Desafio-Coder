@@ -1,0 +1,33 @@
+header{
+	.bg-nav{
+		background-color: $bg-nav;
+		.container-fluid{
+			.logo{
+				width: 20rem;
+				margin-bottom: 3rem;
+				transition: width 1s;
+				&:hover{
+					width: 22rem;
+				}
+			}
+			#navbarNav{
+				.navbar-nav{
+					display: flex;
+					.nav-item{
+						list-style: none;
+						margin-right: 20px;
+						a{
+							font-size: 2.8rem;
+							text-decoration: none;
+							color: #82020e;
+							&:hover{
+								color: #960210;
+								font-weight: $regular;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

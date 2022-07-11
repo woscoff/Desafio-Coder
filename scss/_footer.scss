@@ -1,0 +1,19 @@
+.pie{
+	background-color: $bg-nav;
+	width: 100%;
+	padding: auto;
+}
+.text-center{
+	text-align: center;
+}
+.pie__titulo--md{
+	font-size: $textXl;
+}
+.pie__icon{
+	width: 5rem;
+	padding: 1rem;
+	transition: width 1s;
+	&:hover{
+		width: 6rem;
+	}
+}
