@@ -1,0 +1,66 @@
+@mixin titulo($color, $size){
+	color: $color;
+	font-size: $size;
+}
+
+
+.text-bold{
+	font-weight: $regular;
+}
+.text-center{
+	text-align: center;
+}
+.titulo__xxl{
+	font-size: $textXl;
+}
+.p__articulo{
+	width: 80%;
+	height: auto;
+	margin: 50px auto;
+	padding: 50px 30px;
+	border: dotted 2px map-get($map:$paleta, $key:'cuatro');
+	overflow: auto;
+}
+
+.bg{
+	background-color: $bg-color;
+}
+
+.htres{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
+}
+
+.contactos{
+	width: 70%;
+	height: auto;
+	margin: 2em auto;
+	padding: 2em;
+	border: dotted 2px map-get($map:$paleta, $key:'cuatro');
+	overflow: auto;
+}
+
+.icon-contact-g{
+	width: 48em;
+	height: auto;
+	padding: 3em 10em;
+}
+
+.icon-contact-f{
+	@extend .icon-contact-g;
+	width: 46em;
+}
+
+
+.p__articuloInfo{
+	@extend .p__articulo;
+	width: 50%;
+}
+
+
+.informacion{
+	@include titulo(map-get($map:$paleta, $key:'tres'), $textXl);
+}
+
+.dato{
+	@include titulo(map-get($map:$paleta, $key:'tres'), $textMd);
+}

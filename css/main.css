@@ -45,7 +45,7 @@ header .bg-nav {
 #info .text-center {
   text-align: center; }
 
-#info .p__articulo {
+#info .p__articulo, #info .p__articuloInfo {
   width: 90%;
   height: auto;
   margin: 50px auto;
@@ -99,6 +99,57 @@ header .bg-nav {
     height: auto;
     margin: auto;
     padding: 2rem; } }
+
+.text-bold {
+  font-weight: 500; }
+
+.text-center {
+  text-align: center; }
+
+.titulo__xxl {
+  font-size: 3rem; }
+
+.p__articulo, .p__articuloInfo {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+  padding: 50px 30px;
+  border: dotted 2px #960210;
+  overflow: auto; }
+
+.bg {
+  background-color: rgba(236, 220, 212, 0.5); }
+
+.htres {
+  color: #960210;
+  font-size: 2rem; }
+
+.contactos {
+  width: 70%;
+  height: auto;
+  margin: 2em auto;
+  padding: 2em;
+  border: dotted 2px #960210;
+  overflow: auto; }
+
+.icon-contact-g, .icon-contact-f {
+  width: 48em;
+  height: auto;
+  padding: 3em 10em; }
+
+.icon-contact-f {
+  width: 46em; }
+
+.p__articuloInfo {
+  width: 50%; }
+
+.informacion {
+  color: #82020e;
+  font-size: 3rem; }
+
+.dato {
+  color: #82020e;
+  font-size: 1.5rem; }
 
 .pie {
   background-color: rgba(252, 84, 100, 0.5);

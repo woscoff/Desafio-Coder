@@ -1,0 +1,24 @@
+En el archivo index.html sumé el SEO con las siguientes caractericticas:
+ Descripcion: mediante la etiqueta meta name description, agregué el siguiente parrafo que explica en pocas palabras el contenido de mi sitio: "Encontrá las mejores prendas al mejor precio.¡Solo aquí!"
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave: "indumentaria, ropa, empresa"
+ Encabezado: para el encabezado del h1 utilicé el texto "Nuestra Indumentaria"
+
+En el archivo catalogo.html sumé el SEO con las siguientes caractericticas:
+ Descripcion: mediante la etiqueta meta name description, agregué el siguiente parrafo que explica en pocas palabras el contenido de mi sitio: "En nuestro catalogo de gran variedad encontrarás todos nuestros articulos!"
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave: "indumentaria, ropa, envio"
+ Encabezado: para el encabezado del h1 utilicé el texto "Nuestra Indumentaria"
+
+En el archivo nosotros.html sumé el SEO con las siguientes caractericticas:
+ Descripcion: mediante la etiqueta meta name description, agregué el siguiente parrafo que explica en pocas palabras el contenido de mi sitio: "Te brindamos todos nuestros horarios de atencion, vení cuando quieras! Te esperamos."
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave: "atencion, lugar, horario"
+ Encabezado: para el encabezado del h1 utilicé el texto "Nuestro horario de atención:"
+
+En el archivo ofertas.html sumé el SEO con las siguientes caractericticas:
+ Descripcion: mediante la etiqueta meta name description, agregué el siguiente parrafo que explica en pocas palabras el contenido de mi sitio: "Nunca viste tan buenas ofertas como las que te brindamos aquí!"
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave: "pantalon, ofertas, buzo"
+ Encabezado: para el encabezado del h1 utilicé el texto "Nuestras ofertas son:"
+
+En el archivo contacto.html sumé el SEO con las siguientes caractericticas:
+ Descripcion: mediante la etiqueta meta name description, agregué el siguiente parrafo que explica en pocas palabras el contenido de mi sitio: "Podes logearte en nuestra pagina y encontrar ofertas increibles!"
+ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave: "informacion, email, facebook"
+ Encabezado: para el encabezado del h1 utilicé el texto "♥ Amamos TODOS los cuerpos. Encontrá la indumentaria que te gusta sin importar el talle ♥"

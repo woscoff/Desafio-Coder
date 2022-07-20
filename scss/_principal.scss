@@ -1,3 +1,12 @@
+$paleta:(
+	'uno': #fc5464,
+	'dos': #ec8c8c,
+	'tres': #82020e,
+	'cuatro': #960210,
+	'cinco': #ecdcd4,
+	);
+
+
 
 #fotos{
 	.bg{
@@ -6,7 +15,7 @@
 	#contenedor{
 		width: 80%;
 		height: 60rem;
-		border: dotted 2px #960210;
+		border: dotted 2px map-get($map:$paleta, $key:'cuatro');
 		padding: auto;
 		margin-top: 40px;
 		margin-left: auto;
@@ -35,7 +44,7 @@
 		height: auto;
 		margin: 50px auto;
 		padding: 50px 30px;
-		border: dotted 2px #960210;
+		border: dotted 2px map-get($map:$paleta, $key:'cuatro');
 		overflow: auto;
 	}
 	.bg{
@@ -105,3 +114,4 @@
 		padding: 2rem;
 	}
 }
+
