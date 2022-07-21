@@ -1,0 +1,14 @@
+.hora{
+	width: 80%;
+	height: auto;
+	margin: 5rem auto;
+	padding: 5rem 3rem;
+	border: dotted 2px #960210;
+	overflow: auto;
+}
+
+p{
+	@include titulo(map-get($map:$paleta, $key:'uno'), $textLg);
+	line-height: 3rem;
+	font-weight: $light;
+}

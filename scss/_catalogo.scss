@@ -1,0 +1,49 @@
+.precio{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	font-family: sans-serif;
+	display: flex;
+  	flex-direction: column;
+	align-items: center;
+	height:50px;
+	.box-precio{
+	  width: 50%;
+	  height: auto;
+	  margin: auto;
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  display: flex;
+	  flex-direction: column;
+	  .precio1{
+	  	color: red;
+	  	font-size: 2em;
+  	}
+  }
+  .precio2{
+	  font-size: 3em;
+	  @include titulo(map-get($map:$paleta, $key:'dos'), $textXl);
+	  font-weight: $bold;
+  }
+}
+
+.btn-cat{
+	margin: auto;
+	margin-top: 1.5rem; 
+	width: 30%; 
+	height: 5em; 
+}
+
+section form legend{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textXl);
+	font-family: 'Roboto', sans-serif;
+	line-height: 4.4rem;
+	font-weight: $regular;
+}
+
+
+section form div label{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
+	font-family: 'Roboto', sans-serif;
+	font-weight: $light;
+}

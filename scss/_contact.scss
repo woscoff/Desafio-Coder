@@ -1,9 +1,3 @@
-@mixin titulo($color, $size){
-	color: $color;
-	font-size: $size;
-}
-
-
 .text-bold{
 	font-weight: $regular;
 }
@@ -30,30 +24,18 @@
 	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
 }
 
-.contactos{
-	width: 70%;
-	height: auto;
-	margin: 2em auto;
-	padding: 2em;
-	border: dotted 2px map-get($map:$paleta, $key:'cuatro');
-	overflow: auto;
-}
-
-.icon-contact-g{
-	width: 48em;
-	height: auto;
-	padding: 3em 10em;
-}
-
 .icon-contact-f{
-	@extend .icon-contact-g;
 	width: 46em;
+	height: auto;
+	padding: 4em;
 }
 
 
 .p__articuloInfo{
 	@extend .p__articulo;
-	width: 50%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -63,4 +45,21 @@
 
 .dato{
 	@include titulo(map-get($map:$paleta, $key:'tres'), $textMd);
+}
+
+section form legend{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textXl);
+	font-family: 'Roboto', sans-serif;
+	line-height: 4.4rem;
+	font-weight: $regular;
+}
+
+.btn-mensaje{
+	margin: auto;
+	margin-top: 1rem;
+	height: 3rem;
+	width: auto;
+	@include titulo(map-get($map:$paleta, $key:'tres'), $textMd);
+	background-color: map-get($map:$paleta, $key:'dos');
+	border: inset 2px map-get($map:$paleta, $key:'cuatro');
 }

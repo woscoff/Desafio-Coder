@@ -4,7 +4,8 @@ header{
 		.container-fluid{
 			.logo{
 				width: 20rem;
-				margin-bottom: 3rem;
+				height: 10rem;
+				margin: auto;
 				transition: width 1s;
 				&:hover{
 					width: 22rem;

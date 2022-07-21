@@ -3,7 +3,8 @@ header .bg-nav {
   background-color: rgba(252, 84, 100, 0.5); }
   header .bg-nav .container-fluid .logo {
     width: 20rem;
-    margin-bottom: 3rem;
+    height: 10rem;
+    margin: auto;
     transition: width 1s; }
     header .bg-nav .container-fluid .logo:hover {
       width: 22rem; }
@@ -100,6 +101,65 @@ header .bg-nav {
     margin: auto;
     padding: 2rem; } }
 
+.precio {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px; }
+  .precio .box-precio {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column; }
+    .precio .box-precio .precio1 {
+      color: red;
+      font-size: 2em; }
+  .precio .precio2 {
+    font-size: 3em;
+    color: #ec8c8c;
+    font-size: 3rem;
+    font-weight: 600; }
+
+.btn-cat {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 30%;
+  height: 5em; }
+
+section form legend {
+  color: #960210;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 4.4rem;
+  font-weight: 500; }
+
+section form div label {
+  color: #960210;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+.hora {
+  width: 80%;
+  height: auto;
+  margin: 5rem auto;
+  padding: 5rem 3rem;
+  border: dotted 2px #960210;
+  overflow: auto; }
+
+p {
+  color: #fc5464;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400; }
+
 .text-bold {
   font-weight: 500; }
 
@@ -124,24 +184,15 @@ header .bg-nav {
   color: #960210;
   font-size: 2rem; }
 
-.contactos {
-  width: 70%;
-  height: auto;
-  margin: 2em auto;
-  padding: 2em;
-  border: dotted 2px #960210;
-  overflow: auto; }
-
-.icon-contact-g, .icon-contact-f {
-  width: 48em;
-  height: auto;
-  padding: 3em 10em; }
-
 .icon-contact-f {
-  width: 46em; }
+  width: 46em;
+  height: auto;
+  padding: 4em; }
 
 .p__articuloInfo {
-  width: 50%; }
+  width: 70%;
+  display: flex;
+  flex-direction: column; }
 
 .informacion {
   color: #82020e;
@@ -150,6 +201,23 @@ header .bg-nav {
 .dato {
   color: #82020e;
   font-size: 1.5rem; }
+
+section form legend {
+  color: #960210;
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 4.4rem;
+  font-weight: 500; }
+
+.btn-mensaje {
+  margin: auto;
+  margin-top: 1rem;
+  height: 3rem;
+  width: auto;
+  color: #82020e;
+  font-size: 1.5rem;
+  background-color: #ec8c8c;
+  border: inset 2px #960210; }
 
 .pie {
   background-color: rgba(252, 84, 100, 0.5);

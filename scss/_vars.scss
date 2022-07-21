@@ -1,3 +1,17 @@
 //variables globales 
 $bg-nav: rgba(252,84,100, 0.5);
 $bg-color: rgba(236,220,212, .5);
+
+
+@mixin titulo($color, $size){
+	color: $color;
+	font-size: $size;
+}
+
+$paleta:(
+	'uno': #fc5464,
+	'dos': #ec8c8c,
+	'tres': #82020e,
+	'cuatro': #960210,
+	'cinco': #ecdcd4,
+	);
