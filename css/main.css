@@ -42,6 +42,17 @@ header .bg-nav {
     transition: width 1s; }
     #fotos #contenedor img:hover {
       width: 40rem; }
+  @media (min-width: 1024px) {
+    #fotos #contenedor {
+      display: flex;
+      flex-direction: row;
+      width: 70%;
+      height: 30rem; }
+      #fotos #contenedor #contenedor img {
+        width: 35rem;
+        height: auto;
+        margin: auto;
+        padding: 2rem; } }
 
 #info .text-center {
   text-align: center; }
@@ -68,38 +79,19 @@ header .bg-nav {
 #info .titulo__xxl {
   font-size: 3rem; }
 
-.contenedor-r {
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: "nav"  "fotos"  "info"  "pie"; }
+.acordion {
+  color: #82020e;
+  font-size: 2rem; }
 
-#mainNav {
-  grid-area: nav; }
+.acordionTitle {
+  color: #fc5464;
+  font-size: 3rem; }
 
-#fotos {
-  grid-area: fotos; }
+.accordion-body {
+  background-color: #ec8c8c; }
 
-#info {
-  grid-area: info; }
-
-#pie {
-  grid-area: pie; }
-
-@media (min-width: 1024px) {
-  .contenedor-r {
-    grid-template-columns: 50vh 50vh;
-    grid-template-rows: auto;
-    grid-template-areas: "nav nav" "fotos fotos"  "info info"  "pie pie"; }
-  #contenedor {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 30rem; }
-  #contenedor img {
-    width: 35rem;
-    height: auto;
-    margin: auto;
-    padding: 2rem; } }
+.accordion-button {
+  background-color: #ec8c8c; }
 
 .precio {
   width: 100%;
@@ -115,17 +107,17 @@ header .bg-nav {
     height: auto;
     margin: auto;
     margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex-direction: column; }
+    margin-bottom: 0; }
     .precio .box-precio .precio1 {
       color: red;
-      font-size: 2em; }
+      font-size: 1.5em; }
   .precio .precio2 {
-    font-size: 3em;
     color: #ec8c8c;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600; }
+    @media (min-width: 1524px) {
+      .precio .precio2 {
+        font-size: 3rem; } }
 
 .btn-cat {
   margin: auto;
@@ -145,6 +137,10 @@ section form div label {
   font-size: 2rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
+
+.talle {
+  color: #960210;
+  font-size: 1.5rem; }
 
 .hora {
   width: 80%;
@@ -190,9 +186,12 @@ p {
   padding: 4em; }
 
 .p__articuloInfo {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column; }
+  @media (min-width: 1024px) {
+    .p__articuloInfo {
+      width: 65%; } }
 
 .informacion {
   color: #82020e;
@@ -213,11 +212,17 @@ section form legend {
   margin: auto;
   margin-top: 1rem;
   height: 3rem;
-  width: auto;
+  width: 40%;
   color: #82020e;
   font-size: 1.5rem;
   background-color: #ec8c8c;
   border: inset 2px #960210; }
+  @media (min-width: 440px) {
+    .btn-mensaje {
+      width: 20%; } }
+  @media (min-width: 1024px) {
+    .btn-mensaje {
+      width: 10%; } }
 
 .pie {
   background-color: rgba(252, 84, 100, 0.5);

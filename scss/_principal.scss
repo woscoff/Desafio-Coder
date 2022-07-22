@@ -22,6 +22,18 @@
 				width: 40rem;
 			}
 	  	}
+	  	@media (min-width: 1024px){
+	  		display: flex;
+	  		flex-direction: row;
+	  		width: 70%;
+			height: 30rem;
+			#contenedor img{
+				width: 35rem;
+				height: auto;
+				margin: auto;
+				padding: 2rem;
+			}
+	  	}
 	}
 }
 
@@ -54,54 +66,19 @@
 }
 
 
-.contenedor-r{
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas: 
-	"nav" 
-	"fotos" 
-	"info" 
-	"pie";
+.acordion{
+	@include titulo(map-get($map:$paleta, $key:'tres'), $textLg);
 }
 
-#mainNav{
-	grid-area: nav;
+.acordionTitle{
+	@include titulo(map-get($map:$paleta, $key:'uno'), $textXl);
 }
 
-#fotos{
-	grid-area: fotos;
+.accordion-body{
+	background-color: map-get($map:$paleta, $key:'dos');
 }
 
-#info{
-	grid-area: info;
-}
-
-#pie{
-	grid-area: pie;
-}
-
-@media (min-width: 1024px){
-	.contenedor-r{
-		grid-template-columns: 50vh 50vh;
-		grid-template-rows: auto;
-		grid-template-areas: 
-		"nav nav"
-		"fotos fotos" 
-		"info info" 
-		"pie pie";
-	}
-
-	#contenedor{
-		display: flex;
-  		flex-direction: row;
-  		width: 70%;
-		height: 30rem;
-	}
-	#contenedor img{
-		width: 35rem;
-		height: auto;
-		margin: auto;
-		padding: 2rem;
-	}
+.accordion-button {        
+        background-color: map-get($map:$paleta, $key:'dos');
 }
 

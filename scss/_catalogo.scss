@@ -13,17 +13,17 @@
 	  margin: auto;
 	  margin-top: 0;
 	  margin-bottom: 0;
-	  display: flex;
-	  flex-direction: column;
 	  .precio1{
 	  	color: red;
-	  	font-size: 2em;
+	  	font-size: 1.5em;
   	}
   }
   .precio2{
-	  font-size: 3em;
-	  @include titulo(map-get($map:$paleta, $key:'dos'), $textXl);
+	  @include titulo(map-get($map:$paleta, $key:'dos'), $textLg);
 	  font-weight: $bold;
+	  @media (min-width: 1524px){
+		font-size: $textXl;
+	}
   }
 }
 
@@ -46,4 +46,8 @@ section form div label{
 	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
 	font-family: 'Roboto', sans-serif;
 	font-weight: $light;
+}
+
+.talle{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textMd);
 }
