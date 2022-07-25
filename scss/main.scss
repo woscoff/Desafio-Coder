@@ -12,6 +12,7 @@
 	font-family: 'Roboto', sans-serif;
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 
@@ -23,10 +24,12 @@ body{
 	background-image: url(../img/fondo.jpg);
 	background-attachment: fixed;
 	overflow-x: hidden;
+	min-height: 100vh;
+	margin: 0 auto;
 }
 
 h1,h2, h3{
-	color: #82020e;
+	color: map-get($map:$paleta, $key:'uno');
 	font-family: 'Quintessential', cursive;
 }
 

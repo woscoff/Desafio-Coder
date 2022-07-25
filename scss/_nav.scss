@@ -1,3 +1,16 @@
+#navText{
+	color: map-get($map:$paleta, $key:'cinco');
+	background-color: rgba(111, 29, 27, .9);
+	margin: 0;
+	padding: 0.2rem;
+	font-size: $textMd;
+	line-height: 1.5rem;
+	@media (min-width: 1024px){
+		font-size: $textLg;
+		padding: 2rem;
+	}
+}
+
 header{
 	.bg-nav{
 		background-color: $bg-nav;
@@ -20,9 +33,9 @@ header{
 						a{
 							font-size: 2.8rem;
 							text-decoration: none;
-							color: #82020e;
+							color: map-get($map:$paleta, $key:'uno');
 							&:hover{
-								color: #960210;
+								color: map-get($map:$paleta, $key:'cinco');
 								font-weight: $regular;
 							}
 						}

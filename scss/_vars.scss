@@ -1,6 +1,6 @@
 //variables globales 
-$bg-nav: rgba(252,84,100, 0.5);
-$bg-color: rgba(236,220,212, .5);
+$bg-nav: rgba(153, 88, 42, .8);
+$bg-color: rgba(187, 148, 87, .7);
 
 
 @mixin titulo($color, $size){
@@ -9,9 +9,15 @@ $bg-color: rgba(236,220,212, .5);
 }
 
 $paleta:(
-	'uno': #fc5464,
-	'dos': #ec8c8c,
-	'tres': #82020e,
-	'cuatro': #960210,
-	'cinco': #ecdcd4,
+	'uno': rgba(111, 29, 27, 1),
+	'dos': rgba(187, 148, 87, 1),
+	'tres': rgba(67, 40, 24, 1),
+	'cuatro': rgba(153, 88, 42, 1),
+	'cinco': rgba(255, 230, 167, 1),
 	);
+
+$persian-plum: rgba(111, 29, 27, 1);
+$camel: rgba(187, 148, 87, 1);
+$bistre: rgba(67, 40, 24, 1);
+$windsor-tan: rgba(153, 88, 42, 1);
+$banana-mania: rgba(255, 230, 167, 1);
