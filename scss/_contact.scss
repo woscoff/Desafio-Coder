@@ -10,7 +10,7 @@
 .p__articulo{
 	width: 80%;
 	height: auto;
-	margin: 50px auto;
+	margin: auto;
 	padding: 50px 30px;
 	overflow: auto;
 }
@@ -19,42 +19,22 @@
 	background-color: $bg-color;
 }
 
-.htres{
-	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
-}
-
-.icon-contact-f{
-	width: 46em;
-	height: auto;
-	padding: 4em;
-}
-
-
 .p__articuloInfo{
 	@extend .p__articulo;
-	width: 80%;
+	width: 90%;
 	display: flex;
 	flex-direction: column;
 	@media (min-width: 1024px){
-		width: 65%;
+		width: 60%;
 	}
 }
 
-
-
-.informacion{
-	@include titulo(map-get($map:$paleta, $key:'tres'), $textXl);
+.log{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textMd);
 }
 
-.dato{
-	@include titulo(map-get($map:$paleta, $key:'tres'), $textMd);
-}
-
-section form legend{
-	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textXl);
-	font-family: 'Roboto', sans-serif;
-	line-height: 4.4rem;
-	font-weight: $regular;
+.mensajee{
+	@include titulo(map-get($map:$paleta, $key:'cuatro'), $textLg);
 }
 
 .btn-mensaje{
