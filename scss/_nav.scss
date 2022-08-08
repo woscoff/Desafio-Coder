@@ -18,10 +18,13 @@ header{
 			.logo{
 				width: 20rem;
 				height: 10rem;
-				margin: auto;
+				margin-left: 0;
 				transition: width 1s;
 				&:hover{
 					width: 22rem;
+				}
+				@media (min-width: 1024px){
+
 				}
 			}
 			#navbarNav{

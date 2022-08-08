@@ -21,6 +21,7 @@ html{
 }
 
 body{
+	background-color: $bg-color;
 	background-image: url(../img/fondo.jpg);
 	background-attachment: fixed;
 	overflow-x: hidden;

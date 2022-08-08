@@ -41,15 +41,15 @@
 	margin: auto;
 	margin-top: 1rem;
 	height: 3rem;
-	width: 40%;
+	width: 100%;
 	@include titulo(map-get($map:$paleta, $key:'tres'), $textMd);
 	background-color: map-get($map:$paleta, $key:'dos');
 	border: inset 2px map-get($map:$paleta, $key:'cuatro');
 	@media (min-width: 440px){
-		width: 20%;
+		width: 40%;
 	}
 	@media (min-width: 1024px){
-		width: 10%;
+		width: 30%;
 	}
 }
 
